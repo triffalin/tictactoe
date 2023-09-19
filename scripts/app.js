@@ -1,3 +1,16 @@
+let editedPlayer = 0;
+
+const players = [
+	{
+		name: '',
+		symbol: 'X',
+	},
+	{
+		name: '',
+		symbol: 'O',
+	},
+];
+
 //  access the css items
 const playerConfigOverlayElement = document.getElementById('config-overlay');
 const backdropElement = document.getElementById('backdrop');
